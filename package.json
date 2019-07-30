@@ -1,5 +1,5 @@
 {
-  "name": "@cashfarm/tractor",
+  "name": "@tokilabs/tractor",
   "version": "0.18.0",
   "description": "A Hapi server with superpowers",
   "main": "index.js",
@@ -24,21 +24,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/cashfarm/tractor.git"
+    "url": "git+ssh://git@github.com/tokilabs/tractor.git"
   },
   "keywords": [
     "shiny"
   ],
-  "author": "Saulo Vallory <saulo@cashfarm.tech>",
+  "author": "Saulo Vallory <saulo@toki.network>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cashfarm/tractor/issues"
+    "url": "https://github.com/tokilabs/tractor/issues"
   },
-  "homepage": "https://github.com/cashfarm/tractor#README",
+  "homepage": "https://github.com/tokilabs/tractor#README",
   "dependencies": {
     "@cashfarm/lang": "^0.8.0",
     "@cashfarm/plow": "^0.5.0",
-    "@hapi/boom": "7.x.x",
+    "@hapi/boom": "^7.4.2",
     "@hapi/glue": "6.x.x",
     "@hapi/good": "8.x.x",
     "@hapi/good-console": "8.x.x",
@@ -48,9 +48,11 @@
     "@hapi/joi": "15.x.x",
     "@hapi/joi-date": "1.x.x",
     "@hapi/vision": "5.x.x",
-    "blipp": "3.x.x",
+    "@types/confidence": "^1.4.30",
+    "blipp": "^4.0.0",
+    "confidence": "^4.0.2",
     "debug": "4.x.x",
-    "hapi-swagger": "9.x.x",
+    "hapi-swagger": "10.x",
     "inversify": "5.x.x",
     "inversify-binding-decorators": "4.x.x",
     "pubsub-js": "1.7.x",
@@ -62,6 +64,9 @@
     "@types/debug": "^4.1.4",
     "@types/eslint": "^4.16.6",
     "@types/gh-pages": "^2.0.0",
+    "@types/hapi__boom": "^7.4.0",
+    "@types/hapi__hapi": "^18.2.5",
+    "@types/hapi__joi": "^15.0.0",
     "@types/pubsub-js": "^1.5.18",
     "@types/source-map-support": "^0.5.0",
     "@typescript-eslint/eslint-plugin": "1.x.x",
@@ -70,12 +75,13 @@
     "eslint-config-hapi": "12.x.x",
     "eslint-plugin-hapi": "4.x.x",
     "gh-pages": "2.x.x",
-    "publish-please": "5.x.x",
+    "publish-please": "^5.5.0",
     "source-map-support": "*",
     "trash-cli": "2.x.x",
+    "ts-lint": "^4.5.1",
     "ts-node": "8.x.x",
     "tsconfig-paths": "3.x.x",
-    "typedoc": "*",
+    "typedoc": "^0.15.0",
     "typescript": "3.x.x"
   }
 }
